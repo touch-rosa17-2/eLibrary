@@ -1,0 +1,16 @@
+.container-receipt{
+    margin-left: 260px;
+}
+.tblReceipt{
+    border-collapse: collapse;
+}
+.tblReceipt,
+.tblReceipt td {
+    border-right: 1px solid black;
+    text-align: center;
+}
+@media only screen and (max-width:760px){
+    .container-receipt{
+        margin-left: 20px;
+    }
+}

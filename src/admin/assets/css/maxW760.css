@@ -1,0 +1,41 @@
+/* responsive */
+/* @media only screen and (max-width: 760px) {
+    .home-section{
+        margin-right: 0;
+        z-index: 100;
+        background:none;
+    }
+    .container-sideMenu{
+        left: 0;
+    }
+    .container-sideMenu.close{
+        left: -100%;
+    }
+    .home-content .text{
+        display: none;
+    }
+    .bx-menu{
+        display: block;
+    }
+
+    .container-user{
+        left: 0;
+    }
+} */
+@media only screen and (max-width: 760px) {
+    .checkBtn{
+        display: block;
+    }
+    .dashboardList ul{
+        position: fixed;
+        left: -100%;
+    }
+
+
+    /* user */
+    
+    .container-user{
+        left: 0;
+        width: 100%;
+    }
+}
